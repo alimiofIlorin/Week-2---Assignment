@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+.nav-section{
+background-color: black;
+height: 15vh;
+padding: 1.8em;
+}
+
+.navigation > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+    font-family: 'Lato', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin: 10px 10px;
+}
+.navigation > a:hover {
+    text-decoration: underline;
+}

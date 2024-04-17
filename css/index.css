@@ -1,0 +1,54 @@
+/* Logo Section Style */
+.logo-section {
+    margin: 1.8rem;
+}
+
+.image-wrapper {
+    background-image: url('../Images/GitHub-Logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20vh;
+    width: auto;
+}
+
+/* Content section Style */
+
+.content-section, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+.content-section {
+    padding:1.8rem ;
+}
+.content-section > ul > li {
+    list-style: decimal;
+    margin:1.8rem 0px ;
+}
+.content-section > ul > li > h4 {
+    margin-bottom: .3rem;
+}
+
+/* List Link Section */
+.list-link {
+    background-color: rgba(128, 128, 128, 0.35);
+    border-left: solid green 5px;
+    padding: 1.8rem;
+    margin: 1.8rem 0;
+}
+.list-link > a {
+    text-decoration: none;
+    color: green;
+    font-size: 1.3rem;
+}
+.list-link > a:hover {
+    text-decoration: underline;
+}
